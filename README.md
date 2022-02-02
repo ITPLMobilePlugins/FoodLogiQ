@@ -30,6 +30,4 @@ easy way to build and deploy this within docker container (or docker compose).
 ## H2 Database URL
 http://localhost:8080/h2-ui
 
-## Swagger URL
-
 
