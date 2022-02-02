@@ -14,8 +14,11 @@ easy way to build and deploy this within docker container (or docker compose).
 
 ## Testing The Application
 1.Create event(HttpMethod POST) - http://localhost:8080/food-logiq/event/create
+
 2.Delete event(HttpMethod DELETE) - http://localhost:8080/food-logiq/event/{event_id}
+
 3.Fetch single event(HttpMethod GET) - http://localhost:8080/food-logiq/event/{event_id}
+
 4.Fetch all the event(HttpMethod GET) - http://localhost:8080/food-logiq/events
 
 ## H2 Database URL
