@@ -1,0 +1,2 @@
+# FoodLogiQ
+FoodLogiQ event CRUD
