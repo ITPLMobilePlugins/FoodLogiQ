@@ -4,9 +4,13 @@ easy way to build and deploy this within docker container (or docker compose).
 
 ## Prerequistics
 1.Install Docker Desktop
+
 2.Set JAVA_HOME, we are using Java 11 for this project
+
 3.Set MAVEN_HOME 
+
 4.Clone the application
+
 5.Open the terminal and navigate upto project folder 
 
 ## Running The App Using Make File
