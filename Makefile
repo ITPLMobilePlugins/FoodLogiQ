@@ -8,5 +8,4 @@ build-with-testing:
 image:
 	docker build -f Dockerfile -t $(IMAGE_NAME):$(IMAGE_TAG) .
 run:
-	docker run -p 8080:8080  -p 8080:8080 $(IMAGE_NAME):$(IMAGE_TAG)
-
+	docker run -i --rm -p 8080:8080 $(IMAGE_NAME):$(IMAGE_TAG)
