@@ -71,7 +71,7 @@ public class FoodLogiQValidationUtil {
 			requestObject.put(FoodLogiQConstants.KEY_EXCEPTION, FoodLogiQUtil
 					.getResponseEntity(foodLogiQMessageConfiguration.invalidEventType, HttpStatus.BAD_REQUEST, null));
 			return requestObject;
-		} else if (event.getContents().isEmpty()) {
+		} else if (event.getContents() == null || event.getContents().isEmpty()) {
 			requestObject.put(FoodLogiQConstants.KEY_EXCEPTION, FoodLogiQUtil
 					.getResponseEntity(foodLogiQMessageConfiguration.emptyContent, HttpStatus.BAD_REQUEST, null));
 			return requestObject;
