@@ -34,3 +34,5 @@ username: etr
 
 password: etr
 
+JDBC URL: jdbc:h2:file:./db/foodlogiqdb
+
