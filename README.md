@@ -1,6 +1,6 @@
 ## FoodLogiQ
 For this project, we created REST APIs for create, read, delete and list commands utilizing events as well as providing an
-easy way to build and deploy this within docker container (or docker compose).
+easy way to build and deploy this within docker container.
 
 ## Prerequistics
 1.Install Docker Desktop
@@ -30,4 +30,6 @@ easy way to build and deploy this within docker container (or docker compose).
 ## H2 Database URL
 http://localhost:8080/h2-ui
 
+username: etr
+password: etr
 
