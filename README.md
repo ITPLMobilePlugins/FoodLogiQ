@@ -31,5 +31,6 @@ easy way to build and deploy this within docker container.
 http://localhost:8080/h2-ui
 
 username: etr
+
 password: etr
 
